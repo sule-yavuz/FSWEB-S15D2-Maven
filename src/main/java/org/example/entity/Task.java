@@ -17,10 +17,24 @@ public class Task {
         this.status = status;
     }
 
-
-
     public String getAssignee() {
         return assignee;
+    }
+
+    public String getProject() {
+        return project;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public Priority getPriority() {
+        return priority;
+    }
+
+    public Status getStatus() {
+        return status;
     }
 
     @Override

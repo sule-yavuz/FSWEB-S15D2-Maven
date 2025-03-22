@@ -27,11 +27,11 @@ public class MainTest {
     @BeforeEach
     void setUp() {
         task1 = new Task("Java Collections", "Write List Interface",
-                "Ann", Status.IN_QUEUE, Priority.LOW);
+                        "Ann", Priority.LOW, Status.IN_QUEUE);
         task2 = new Task("Java Collections", "Write Set Interface",
-                "Ann", Status.ASSIGNED, Priority.MED);
+                        "Ann", Priority.MED, Status.ASSIGNED);
         task3 = new Task("Java Collections", "Write Map Interface",
-                "Bob", Status.IN_QUEUE, Priority.HIGH);
+                        "Bob", Priority.HIGH, Status.IN_QUEUE);
 
         taskSet1 = new HashSet<>();
         taskSet1.add(task1);
